@@ -1,0 +1,7 @@
+abstract class Bharatvanshi {
+    public void fight() {
+        System.out.println("Fighting skill is present.");
+    }
+
+    public abstract void obey();  
+}

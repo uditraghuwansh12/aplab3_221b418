@@ -1,0 +1,26 @@
+abstract class Pandav extends Bharatvanshi {
+    public abstract void kind();  
+}
+
+class Arjun extends Pandav {
+    
+    public void obey() {
+        System.out.println("Arjun is obedient.");
+    }
+
+    public void kind() {
+        System.out.println("Arjun is kind.");
+    }
+}
+
+class Bheem extends Pandav {
+   
+    public void obey() {
+        System.out.println("Bheem is obedient.");
+    }
+
+  
+    public void kind() {
+        System.out.println("Bheem is less kind than Arjun.");
+    }
+}

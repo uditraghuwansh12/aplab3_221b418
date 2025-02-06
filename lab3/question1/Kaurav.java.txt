@@ -1,0 +1,27 @@
+abstract class Kaurav extends Bharatvanshi {
+    public abstract void disobey();  
+}
+
+class Duryodhan extends Kaurav {
+    
+    public void obey() {
+        System.out.println("Duryodhan disobeys.");
+    }
+
+  
+    public void disobey() {
+        System.out.println("Duryodhan is notorious for disobeying and cruelty.");
+    }
+}
+
+class Vikarn extends Kaurav {
+    
+    public void obey() {
+        System.out.println("Vikarn is obedient and noble.");
+    }
+
+   
+    public void disobey() {
+        System.out.println("Vikarn fights, but does not disobey or act cruelly.");
+    }
+}
